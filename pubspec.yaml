@@ -28,7 +28,7 @@ dependencies:
   responsive_framework: ^1.5.1
   pinput: ^6.0.1
   cached_network_image: ^3.4.1
-
+  flutter_screenutil: ^5.9.3
   cupertino_icons: ^1.0.8
 
 dev_dependencies:

@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:task_taste/task_taste.dart';
+import 'package:flutter/services.dart';
+import 'package:task_taste/bootstrap.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+
   runApp(const TaskTaste());
 }
