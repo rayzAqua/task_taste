@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class TaskTaste extends StatelessWidget {
-  const TaskTaste({super.key});
+class NavigationPage extends StatelessWidget {
+  const NavigationPage({super.key});
 
   @override
   Widget build(BuildContext context) {
