@@ -3,6 +3,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:task_taste/config/constants/ui_config.dart';
 import 'package:task_taste/config/routes/app_router.dart';
+import 'package:task_taste/config/styles/theme/app_theme.dart';
 import 'package:task_taste/core/lang/app_localizations.dart';
 
 class TaskTaste extends StatelessWidget {
@@ -21,6 +22,7 @@ class TaskTaste extends StatelessWidget {
             routerConfig: AppRouter.routers,
             debugShowCheckedModeBanner: false,
             title: 'TaskTaste',
+            theme: AppTheme.lightTheme,
             supportedLocales: [Locale('vi'), Locale('en')],
             locale: Locale('vi'),
             localizationsDelegates: [

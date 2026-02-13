@@ -6,7 +6,7 @@ class StateColors {
 
   static const Color success = BasicColors.green;
   static const Color warning = BasicColors.orange;
-  static const Color error = BasicColors.red;
+  static const Color error = BasicColors.redDark;
   static const Color info = BasicColors.blue;
-  static const Color neutral = BasicColors.neutral;
+  static const Color neutral = BasicColors.grayMedium;
 }

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:task_taste/config/styles/colors/colors_module.dart';
 
-class BorderColors {
-  BorderColors._();
+class ElementColors {
+  ElementColors._();
 
-  static const Color borderButtonSecondary = BasicColors.grayMedium;
+  static const Color dividerPrimary = BasicColors.grayExtraLight;
 }

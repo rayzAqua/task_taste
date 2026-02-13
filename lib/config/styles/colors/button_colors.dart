@@ -4,6 +4,7 @@ import 'package:task_taste/config/styles/colors/colors_module.dart';
 class ButtonColors {
   ButtonColors._();
 
-  static const Color buttonPrimary = BasicColors.primary;
-  static const Color buttonSecondart = BasicColors.aliceBlue;
+  static const Color buttonBackgroundPrimary = BasicColors.brandNavy;
+  static const Color buttonBackgroundSecondary = BasicColors.aliceBlue;
+  static const Color buttonBackgroundDisabled = BasicColors.grayBase;
 }

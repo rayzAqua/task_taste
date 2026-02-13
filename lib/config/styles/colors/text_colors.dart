@@ -4,7 +4,8 @@ import 'package:task_taste/config/styles/colors/colors_module.dart';
 class TextColors {
   TextColors._();
 
-  static const Color textPrimary = BasicColors.charcoal;
-  static const Color textButtonPrimary = BasicColors.white1000;
-  static const Color textButtonSecondary = BasicColors.pureBlack;
+  static const Color textPrimary = BasicColors.black;
+  static const Color textButtonPrimary = BasicColors.white;
+  static const Color textButtonSecondary = BasicColors.black;
+  static const Color textButtonDisabled = BasicColors.grayMedium;
 }
