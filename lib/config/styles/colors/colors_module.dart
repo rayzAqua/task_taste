@@ -5,3 +5,5 @@ export 'text_colors.dart';
 export 'border_colors.dart';
 export 'icon_colors.dart';
 export 'state_colors.dart';
+export 'app_colors.dart';
+export 'element_colors.dart';

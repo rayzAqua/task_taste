@@ -5,4 +5,5 @@ class BackgroundColors {
   BackgroundColors._();
 
   static const Color backgroundPrimary = BasicColors.aliceBlue;
+  static const Color backgroundInputField = BasicColors.white;
 }
