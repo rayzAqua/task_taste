@@ -41,7 +41,12 @@ class ElevatedButtonThemeConfig {
         return TextColors.textButtonPrimary;
       }),
       shadowColor: WidgetStatePropertyAll(Colors.transparent),
-      overlayColor: WidgetStatePropertyAll(AppColors.overlay),
+      overlayColor: WidgetStateColor.resolveWith((states) {
+        if (states.contains(WidgetState.disabled)) {
+          return Colors.transparent;
+        }
+        return AppColors.overlay;
+      }),
       // * SHAPE
       alignment: Alignment.center,
       elevation: const WidgetStatePropertyAll(0.0),

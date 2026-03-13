@@ -5,6 +5,7 @@ import 'package:task_taste/config/constants/ui_config.dart';
 import 'package:task_taste/config/routes/app_router.dart';
 import 'package:task_taste/config/styles/theme/app_theme.dart';
 import 'package:task_taste/core/lang/app_localizations.dart';
+import 'package:task_taste/features/placeholder/presentation/pages/feature_placeholder_page.dart';
 
 class TaskTaste extends StatelessWidget {
   const TaskTaste({super.key});
@@ -32,7 +33,7 @@ class TaskTaste extends StatelessWidget {
               GlobalCupertinoLocalizations.delegate,
             ],
             builder: (context, child) {
-              return Placeholder();
+              return child ?? FeaturePlaceholderPage();
             },
           );
         },

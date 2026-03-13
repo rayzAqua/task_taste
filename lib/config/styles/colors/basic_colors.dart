@@ -7,8 +7,9 @@ class BasicColors {
   static const Color brandNavy = Color(0xFF192F5D);
   static const Color brandNavySoft = Color(0x4A192F5D);
 
-  // Light blue
+  // Yellow  // Light blue
   static const Color aliceBlue = Color(0xFFF0F8FF);
+  static const Color royalBlue = Color(0xFF1549F1);
 
   // Dark red family
   static const Color maroonDeep = Color(0xFF190A0A);
@@ -20,6 +21,7 @@ class BasicColors {
   static const Color grayMedium = Color(0xFF747474);
   static const Color grayLight = Color(0xFF757575);
   static const Color grayExtraLight = Color(0xFFC2C2C2);
+  static const Color surfaceMuted = Color(0xFFD8DADC);
 
   // Accent colors
   static const Color redVivid = Color(0xFFFF1212);
@@ -30,6 +32,7 @@ class BasicColors {
 
   // Neutrals
   static const Color black = Color(0xFF000000);
+  static const Color backdrop = Color(0x80000000);
   static const Color charcoal = Color(0xFF323431);
   static const Color shadow = Color(0x40000000);
   static const Color softShadow = Color(0x14000000);

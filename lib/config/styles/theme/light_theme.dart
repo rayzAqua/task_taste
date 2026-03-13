@@ -18,7 +18,11 @@ class LightTheme {
       appBarTheme: AppBarThemeConfig.theme,
       iconTheme: IconThemeConfig.theme,
       elevatedButtonTheme: ElevatedButtonThemeConfig.theme,
+      inputDecorationTheme: InputDecorationThemeConfig.theme,
+      textSelectionTheme: TextSelectionThemeConfig.theme,
+      textTheme: TextThemeConfig.theme,
       dividerColor: ElementColors.dividerPrimary,
+      toggleButtonsTheme: ToggleButtonThemeConfig.theme,
     );
   }
 }
