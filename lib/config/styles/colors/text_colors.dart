@@ -5,8 +5,10 @@ class TextColors {
   TextColors._();
 
   static const Color textBrandPrimary = BasicColors.brandNavy;
+  static const Color textButtonBrandDisabled = BasicColors.whiteMist;
 
   static const Color textPrimary = BasicColors.black;
+  static const Color textSecondary = BasicColors.charcoalMoss;
   static const Color hintPrimary = BasicColors.backdrop;
   static const Color textError = StateColors.error;
 
@@ -14,5 +16,5 @@ class TextColors {
 
   static const Color textButtonPrimary = BasicColors.white;
   static const Color textButtonSecondary = BasicColors.black;
-  static const Color textButtonDisabled = BasicColors.grayMedium;
+  static const Color textButtonDisabled = BasicColors.grayExtraLight;
 }

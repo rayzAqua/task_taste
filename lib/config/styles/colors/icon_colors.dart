@@ -6,4 +6,5 @@ class IconColors {
 
   static const Color iconPrimary = BasicColors.black;
   static const Color iconBadgePrimary = BasicColors.redVivid;
+  static const Color iconDisabled = BasicColors.grayExtraLight;
 }

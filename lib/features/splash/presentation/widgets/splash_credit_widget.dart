@@ -28,8 +28,8 @@ class SplashCreditWidget extends StatelessWidget {
         ImageAssetWidget.fixed(
           url: Assets.teamLogo,
           color: BasicColors.black,
-          width: UiConfig.teamLogoSize.w,
-          height: UiConfig.teamLogoSize.w,
+          width: UiConfig.teamLogoSize,
+          height: UiConfig.teamLogoSize,
         ),
 
         _spaHor4(),

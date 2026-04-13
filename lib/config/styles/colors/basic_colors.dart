@@ -20,7 +20,9 @@ class BasicColors {
   static const Color grayBase = Color(0xFF666666);
   static const Color grayMedium = Color(0xFF747474);
   static const Color grayLight = Color(0xFF757575);
+  static const Color graySoftLight = Color(0xFFDDDDDD);
   static const Color grayExtraLight = Color(0xFFC2C2C2);
+  static const Color charcoalMoss = Color(0xFF323431);
   static const Color surfaceMuted = Color(0xFFD8DADC);
 
   // Accent colors
@@ -39,6 +41,8 @@ class BasicColors {
 
   // Whites
   static const Color white = Color(0xFFFFFFFF);
+  static const Color white10 = Colors.white10;
   static const Color whiteSoft = Color(0xFFF8F8F8);
   static const Color whiteCool = Color(0xFFFCFDFF);
+  static const Color whiteMist = Color(0xFFE6EBF0);
 }
