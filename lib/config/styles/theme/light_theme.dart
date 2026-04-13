@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_taste/config/constants/ui_config.dart';
 import 'package:task_taste/config/styles/colors/colors_module.dart';
 import 'package:task_taste/config/styles/theme/theme_module.dart';
 
@@ -8,7 +9,7 @@ class LightTheme {
   static ThemeData build() {
     return ThemeData(
       useMaterial3: true,
-      fontFamily: 'Inter',
+      fontFamily: UiConfig.fontFamily,
       brightness: Brightness.light,
       scaffoldBackgroundColor: BackgroundColors.backgroundPrimary,
       colorScheme: ColorScheme.light(

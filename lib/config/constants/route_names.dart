@@ -1,12 +1,15 @@
 class RouteNames {
   RouteNames._();
 
-  static const root = '/';
+  static const String root = '/';
 
-  static const splash = '/splash';
+  static const String splash = 'splash';
 
-  static const auth = '/auth';
-  static const login = '$auth/login';
-  static const register = '$auth/register';
-  static const forgotPassword = '$auth/forgot-password';
+  static const String welcome = 'welcome';
+  static const String authLanding = 'landing';
+
+  static const String auth = 'auth';
+  static const String login = 'login';
+  static const String register = 'register';
+  static const String forgotPassword = 'forgot-password';
 }

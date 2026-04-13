@@ -6,4 +6,5 @@ class Assets {
   static const String logo = '$_imagePath/logo.png';
   static const String logoSologan = '$_imagePath/logo_sologan.png';
   static const String teamLogo = '$_imagePath/team_logo.png';
+  static const String inDevelopment = '$_imagePath/in_development.png';
 }

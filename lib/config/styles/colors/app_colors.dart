@@ -6,5 +6,7 @@ class AppColors {
 
   static const Color primary = BasicColors.brandNavy;
   static const Color shadow = BasicColors.shadow;
-  static const Color overlay = BasicColors.softShadow;
+  static const Color overlay = BasicColors.white;
+  static const Color indicator = BasicColors.grayMedium;
+  static const Color transparent = Colors.transparent;
 }

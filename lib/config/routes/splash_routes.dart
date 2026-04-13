@@ -7,9 +7,9 @@ class SplashRoutes {
   SplashRoutes._();
 
   static final GoRoute routes = GoRoute(
-    path: RouteNames.splash,
+    path: '/${RouteNames.splash}',
     pageBuilder: (context, state) {
-      return AppPage.build(state: state, child: SplashPage());
+      return AppPage.build(state: state, child: const SplashPage());
     },
   );
 }
